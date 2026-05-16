@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makita Puutarhakoneet – Vertailu Pori</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 4px;
+      color: #1a1a1a;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #005daa;
+      color: #005daa;
+    }
+    .platform-note {
+      background: #e8f0fb;
+      border-left: 4px solid #005daa;
+      padding: 10px 14px;
+      font-size: 0.88rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+    thead {
+      background: #005daa;
+      color: #fff;
+    }
+    thead th {
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+    }
+    tbody tr:nth-child(even) { background: #f9f9f9; }
+    tbody tr:hover { background: #eef4ff; }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+    td:last-child { border-bottom: none; }
+    .price {
+      font-weight: 700;
+      color: #c0392b;
+      white-space: nowrap;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: #999;
+      font-size: 0.82rem;
+      display: block;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+    .badge-sale { background: #fde68a; color: #92400e; }
+    .badge-new { background: #bbf7d0; color: #065f46; }
+    .badge-body { background: #e2e8f0; color: #334155; }
+    .badge-bundle { background: #dbeafe; color: #1e40af; }
+    .store { font-size: 0.78rem; color: #555; }
+    a { color: #005daa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .tip {
+      background: #fff8e1;
+      border: 1px solid #ffe082;
+      border-radius: 6px;
+      padding: 12px 16px;
+      font-size: 0.88rem;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+    .tip strong { color: #7c4700; }
+    .sources {
+      margin-top: 32px;
+      font-size: 0.78rem;
+      color: #888;
+    }
+    .sources a { color: #888; }
+    .updated { font-size: 0.78rem; color: #aaa; margin-top: 4px; }
+    .product-cards {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .product-card {
+      flex: 1;
+      min-width: 180px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+      padding: 14px 12px 12px;
+      text-align: center;
+      border: 2px solid #bbf7d0;
+    }
+    .product-card img {
+      width: 100%;
+      max-width: 180px;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 8px;
+    }
+    .product-card .pc-model {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #005daa;
+    }
+    .product-card .pc-desc {
+      font-size: 0.78rem;
+      color: #555;
+      margin-top: 4px;
+    }
+    .product-card .pc-price {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #c0392b;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🌿 Makita Puutarhakoneet – Hintavertailu</h1>
+<p class="subtitle">Pori-alueen myynti &nbsp;|&nbsp; Akkukäyttöiset ruohonleikkurit, trimmeri &amp; pensasleikkuri</p>
+<p class="updated">Päivitetty: 16.5.2026</p>
+
+<!-- ======================================== -->
+<h2>🔋 Akuston valinta – tärkeä päätös ensin</h2>
+<div class="platform-note">
+  Makitalla on kaksi eri akkualustaa puutarhakoneille:<br><br>
+  <strong>XGT 40V</strong> – uudempi, tehokkaampi. Ruohonleikkuri (LM004G), pensasleikkuri (UH013G/UH014G). Akut <em>eivät</em> sovi LXT-koneisiin ilman adapteria.<br><br>
+  <strong>LXT 18V</strong> – vanhempi, halvempi. Erittäin laaja konevalikoima. Ruohonleikkuri (DLM-sarja), pensasleikkuri (DUH-sarja), ruohotrimmeri (UR-sarja). Adapteri mahdollistaa XGT-akun käytön LXT-koneissa.
+</div>
+
+<!-- ======================================== -->
+<h2>✅ Valittu paketti</h2>
+
+<div class="product-cards">
+  <div class="product-card">
+    <img src="https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30118_PNG_web/DLM538PG2_C2L0.png" alt="Makita DLM538PG2" onerror="this.src='https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DLM538_C2L0.jpg'">
+    <div class="pc-model">DLM538PG2</div>
+    <div class="pc-desc">Ruohonleikkuri LXT® 2×18V<br>53 cm · bio/keräävä · 2×6Ah</div>
+    <div class="pc-price"><span style="text-decoration:line-through;color:#999;font-size:0.8rem;">~910 €</span> 599 €</div>
+  </div>
+  <div class="product-card">
+    <img src="https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30118_PNG_web/DUH607Z_C2L0.png" alt="Makita DUH607Z" onerror="this.src='https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DUH607_C2L0.jpg'">
+    <div class="pc-model">DUH607Z</div>
+    <div class="pc-desc">Pensasleikkuri LXT® 18V<br>600 mm · maks. 15 mm · runko</div>
+    <div class="pc-price">149 €</div>
+  </div>
+  <div class="product-card">
+    <img src="https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30118_PNG_web/DUR193Z_C2L0.png" alt="Makita DUR193Z" onerror="this.src='https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DUR193_C2L0.jpg'">
+    <div class="pc-model">DUR193Z</div>
+    <div class="pc-desc">Ruohotrimmeri LXT® 18V<br>260 mm · kääntyvä pää · runko</div>
+    <div class="pc-price">99,90 €</div>
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kone</th>
+      <th>Malli</th>
+      <th>Hinta</th>
+      <th>Linkki</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#dcfce7;">
+      <td><strong>Ruohonleikkuri</strong> <span class="badge badge-sale">-34%</span></td>
+      <td><strong>DLM538PG2</strong> – 2×18V LXT, 53 cm, bio/taaksepuhallus, 2×6Ah + pikalaturi</td>
+      <td class="price"><span class="old-price">~910 €</span>599 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/ruohonleikkuri-makita-dlm538pg2-2x18v-lxt-2x60ah/88381756785">K-Rauta</a></td>
+    </tr>
+    <tr style="background:#dcfce7;">
+      <td><strong>Pensasleikkuri</strong></td>
+      <td><strong>DUH607Z</strong> – LXT 18V, 600 mm, maks. 15 mm oksat, runko</td>
+      <td class="price">149 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/pensasleikkuri-makita-duh607z-18v-lxt-runko/88381777247">K-Rauta</a></td>
+    </tr>
+    <tr style="background:#dcfce7;">
+      <td><strong>Ruohotrimmeri</strong></td>
+      <td><strong>DUR193Z</strong> – LXT 18V, 260 mm, kääntyvä pää, runko</td>
+      <td class="price">99,90 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/akkuruohotrimmeri-makita-dur193z-18v-lxt-runko/88381762670">K-Rauta</a></td>
+    </tr>
+    <tr style="background:#bbf7d0; font-weight:700;">
+      <td colspan="2">Yhteensä – kaikki samalle 2×18V LXT -akulle, akut ja laturi sisältyvät leikkuriin</td>
+      <td class="price">847,90 €</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="tip">
+  <strong>💡 Muista:</strong> Leikkurin tarjous voimassa 31.5.2026 asti. Tarkista Porin K-Raudan saatavuus ennen lähtöä — saatavilla 5 myymälässä, ei välttämättä Porissa varastossa.
+</div>
+
+<!-- ======================================== -->
+<h2>🌱 Kaikki vertaillut ruohonleikkurit</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Malli</th>
+      <th>Alusta</th>
+      <th>Leikkuuleveys</th>
+      <th>Sisältyy</th>
+      <th>Hinta</th>
+      <th>Myynti</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DLM330Z</strong><br><span class="store">K-Rauta</span></td>
+      <td>LXT 18V</td>
+      <td>33 cm</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">199 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/akkuruohonleikkuri-makita-dlm330z-18v-runko/88381757904">K-Rauta</a></td>
+    </tr>
+    <tr>
+      <td><strong>DLM432Z</strong><br><span class="store">K-Rauta</span></td>
+      <td>2×LXT 18V (36V)</td>
+      <td>43 cm</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">349 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/akkuruohonleikkuri-makita-dlm432z-2x18v-runko/88381891226">K-Rauta</a></td>
+    </tr>
+    <tr>
+      <td><strong>DLM432PT2</strong><br><span class="store">K-Rauta</span></td>
+      <td>2×LXT 18V (36V)</td>
+      <td>43 cm</td>
+      <td><span class="badge badge-bundle">2×5Ah + laturi</span></td>
+      <td class="price">499 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/akkuruohonleikkuri-makita-dlm432pt2-2x18v-2x5ah-akut-ja-laturi/88381891202">K-Rauta</a></td>
+    </tr>
+    <tr>
+      <td><strong>LM004GZ</strong> <span class="badge badge-sale">-19%</span><br><span class="store">Alkuperäistuonti Pori</span></td>
+      <td>XGT 40V</td>
+      <td>43 cm, bio/keräävä</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price"><span class="old-price">490 €</span>399 €</td>
+      <td><a href="https://kauppa.alkuperaistuonti.fi/fin/makita_lm004gz_ruohonleikkuri_xgt_40v_leveys_430_mm_biol_keraava_runkoversio-p-2902823-8168">APT Pori</a></td>
+    </tr>
+    <tr>
+      <td><strong>LM004GM103</strong> <span class="badge badge-sale">-9%</span><br><span class="store">Alkuperäistuonti Pori</span></td>
+      <td>XGT 40V</td>
+      <td>43 cm, bio/keräävä</td>
+      <td><span class="badge badge-bundle">BL4040 akku + DC40RC laturi</span></td>
+      <td class="price"><span class="old-price">694 €</span>629 €</td>
+      <td><a href="https://kauppa.alkuperaistuonti.fi/fin/makita_lm004gm103_ruohonleikkuri_xgt_40v_leveys_430_mm_biol_keraava_bl4040_dc40rc-p-2902822-8168">APT Pori</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="tip">
+  <strong>💡 Vinkki:</strong> Jos ostat XGT 40V -pohjaisen leikkurin (LM004G), kannattaa valita sama alusta myös pensasleikkurille. Sama akku sopii molempiin ja säästät ylimääräisiltä latauslaitteilta. LXT 18V on edullisempi lähtöhinta mutta pienempi kapasiteetti.
+</div>
+
+<!-- ======================================== -->
+<h2>✂️ Pensasleikkurit</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Malli</th>
+      <th>Alusta</th>
+      <th>Terä / oksat</th>
+      <th>Sisältyy</th>
+      <th>Hinta</th>
+      <th>Myynti</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DUH607Z</strong><br><span class="store">K-Rauta</span></td>
+      <td>LXT 18V</td>
+      <td>600 mm / maks. 15 mm</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">149 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/pensasleikkuri-makita-duh607z-18v-lxt-runko/88381777247">K-Rauta</a></td>
+    </tr>
+    <tr>
+      <td><strong>UH013GZ</strong> <span class="badge badge-new">XGT</span><br><span class="store">K-Rauta</span></td>
+      <td>XGT 40V</td>
+      <td>600 mm / maks. 18 mm</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">649 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/pensasleikkuri-makita-uh013gz-xgt-40v-runko/88381754071">K-Rauta</a></td>
+    </tr>
+    <tr>
+      <td><strong>UH014GZ</strong> <span class="badge badge-new">XGT</span><br><span class="store">K-Rauta</span></td>
+      <td>XGT 40V</td>
+      <td>750 mm / maks. 18 mm</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">679 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/pensasleikkuri-makita-uh014gz-xgt-40v-runko/88381754149">K-Rauta</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="tip">
+  <strong>💡 Akkuyhteensopivuus:</strong> XGT 40V pensasleikkurit (UH013GZ / UH014GZ) käyttävät samaa akkua kuin LM004G-ruohonleikkuri – yksi laturi, yksi akkuperhe. LXT 18V DUH607Z sopii DLM-sarjan leikkureihin. Huom. XGT-pensasleikkurit ovat selvästi kalliimpia, mutta 40V-moottori antaa enemmän tehoa paksummille oksille (18 mm vs. 15 mm).
+</div>
+
+<!-- ======================================== -->
+<h2>🌾 Ruohotrimmeri</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Malli</th>
+      <th>Alusta</th>
+      <th>Leikkuuleveys / siima</th>
+      <th>Sisältyy</th>
+      <th>Hinta</th>
+      <th>Myynti</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DUR193Z</strong><br><span class="store">K-Rauta</span></td>
+      <td>LXT 18V</td>
+      <td>260 mm / 1,65 mm, säädettävä varsi, leikkuupää 180° kääntyvä</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">99,90 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/akkuruohotrimmeri-makita-dur193z-18v-lxt-runko/88381762670">K-Rauta</a></td>
+    </tr>
+    <tr>
+      <td><strong>DUR192LZ</strong><br><span class="store">K-Rauta</span></td>
+      <td>LXT 18V</td>
+      <td>300 mm / 2,0 mm, hiiliharjaton, 2 nopeutta, XPT-suojaus</td>
+      <td><span class="badge badge-body">Runko</span></td>
+      <td class="price">179 €</td>
+      <td><a href="https://www.k-rauta.fi/tuote/ruohotrimmeri-makita-dur192lz-18v-lxt-runko/88381730327">K-Rauta</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="tip">
+  <strong>💡 Kumpi trimmeri?</strong> DUR193Z (99,90 €) on kevyt ja kätevä reunojen siistimiseen – leikkuupää kääntyy 180°, joten reuna-alueet onnistuvat helposti. DUR192LZ (179 €) on tehokkaampi hiiliharjattomalla moottorilla ja leveämmällä 300 mm leikkuulla – parempi jos nurmi on rehevämpi tai alue isompi. Molemmat sopivat samoihin LXT 18V -akkuihin kuin DLM-ruohonleikkurit ja DUH-pensasleikkuri.
+</div>
+
+<!-- ======================================== -->
+<h2>🛒 Suositeltu kokonaisuus – kaikki samalle LXT 18V -akulle</h2>
+
+<div class="platform-note">
+  <strong>Huom. "bioleikkaava":</strong> Kaikki nykyiset Makita LXT -ruohonleikkurit ovat monimoodisia — bio, keräävä ja/tai taaksepuhallus. <strong>Bio-moodissa pussista ei tarvita</strong>; ruoho silpuuntuu suoraan nurmikkoon. Pelkästään keräävää mallia ei tarvita, kun bio riittää.
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kone</th>
+      <th>Malli</th>
+      <th>Hinta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ruohonleikkuri (akut + laturi mukana) <span class="badge badge-sale">-34% tarjous!</span></td>
+      <td><strong>DLM538PG2</strong> – 53 cm, bio/keräävä/taaksepuhallus, 2×6Ah + pikalaturi</td>
+      <td class="price"><span class="old-price">~910 €</span>599 €</td>
+    </tr>
+    <tr>
+      <td>Pensasleikkuri (runko)</td>
+      <td><strong>DUH607Z</strong> – 600 mm, maks. 15 mm oksat</td>
+      <td class="price">149 €</td>
+    </tr>
+    <tr>
+      <td>Ruohotrimmeri (runko)</td>
+      <td><strong>DUR193Z</strong> – 260 mm, kääntyvä pää</td>
+      <td class="price">99,90 €</td>
+    </tr>
+    <tr style="background:#eef4ff; font-weight:600;">
+      <td colspan="2">Yhteensä (kaikki LXT 18V, 2×6Ah akut ja laturi sisältyvät leikkuriin)</td>
+      <td class="price">847,90 €</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="tip">
+  <strong>💡 Miksi DLM538PG2 eikä DLM432PT2?</strong> Tarjoushinnalla 599 € saat leveämmän 53 cm teräleveyden (vs. 43 cm), isommat 6Ah akut (vs. 5Ah) ja taaksepuhalluksen lisäksi — vain 100 € enemmän. Kaksi 6Ah-akkua riittävät hyvin myös pensasleikkurille ja trimmerille. Tarjous voimassa 31.5.2026 asti. Saatavilla 14 myymälässä — tarkista Porin K-Rauta ennen ostoa.
+</div>
+
+<!-- ======================================== -->
+<h2>🏪 Myymälät Porissa</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Myymälä</th>
+      <th>Osoite</th>
+      <th>Aukioloajat</th>
+      <th>Huomio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>APT Alkuperäistuonti</strong></td>
+      <td>Sammontie 20, 28360 Pori<br>☎ 040 4566026</td>
+      <td>Ma–Pe 8:30–17:00<br>La 10:00–13:00</td>
+      <td>Makitan valtuutettu jälleenmyyjä – 3 v. takuu, XGT-mallisto</td>
+    </tr>
+    <tr>
+      <td><strong>K-Rauta Pori</strong></td>
+      <td>Tarkista <a href="https://www.k-rauta.fi/myymalat">k-rauta.fi/myymalat</a></td>
+      <td>Vaihtelee</td>
+      <td>Laaja LXT-valikoima, osa tilaustuotteita (XGT)</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ======================================== -->
+<h2>⭐ Arvostelut ja testit</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tuote</th>
+      <th>Lähde</th>
+      <th>Kieli</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DLM538</strong> – Ruohonleikkuri</td>
+      <td><a href="https://gardenequipmentreview.com/product/makita-dlm538-twin-18v-lxt-cordless-lawnmower-530mm-2-x-5ah-li-ion-charger/" target="_blank">Garden Equipment Review – DLM538 arvostelu</a></td>
+      <td>🇬🇧 EN</td>
+    </tr>
+    <tr>
+      <td><strong>DLM538</strong> – Ruohonleikkuri</td>
+      <td><a href="https://paulslawnmowerreviews.com/makita-lawnmower-reviews-detailed-compilation" target="_blank">Paul's Mower Reviews – Makita leikkurit kootusti</a></td>
+      <td>🇬🇧 EN</td>
+    </tr>
+    <tr>
+      <td><strong>DLM532</strong> – lähin suomalainen testi (samaa sarjaa)</td>
+      <td><a href="https://gardentime.fi/kokemuksia/makita-dlm532/" target="_blank">Gardentime.fi – DLM532 kokemus</a></td>
+      <td>🇫🇮 FI</td>
+    </tr>
+    <tr>
+      <td><strong>DUH607Z</strong> – Pensasleikkuri</td>
+      <td><a href="https://www.amazon.co.uk/Makita-DUH607Z-Li-ion-Hedge-Trimmer/dp/B0C247ZSRQ" target="_blank">Amazon UK – asiakasarvostelut</a></td>
+      <td>🇬🇧 EN</td>
+    </tr>
+    <tr>
+      <td><strong>DUH607Z</strong> – Pensasleikkuri</td>
+      <td><a href="https://www.youtube.com/watch?v=b_RV7OfBEGg" target="_blank">YouTube – Makita DUH607 & DUH507 testi</a></td>
+      <td>🇬🇧 EN</td>
+    </tr>
+    <tr>
+      <td><strong>DUR193Z</strong> – Ruohotrimmeri</td>
+      <td><a href="https://gardentime.fi/kokemuksia/makita-ruohotrimmeri-dur193z/" target="_blank">Gardentime.fi – DUR193Z arvostelu (suomeksi!)</a></td>
+      <td>🇫🇮 FI</td>
+    </tr>
+    <tr>
+      <td><strong>DUR193Z</strong> – Ruohotrimmeri</td>
+      <td><a href="https://www.youtube.com/watch?v=nricwwovcQE" target="_blank">YouTube – DLM432 + DUR193 ensikokemukset (suomi)</a></td>
+      <td>🇫🇮 FI</td>
+    </tr>
+    <tr>
+      <td><strong>DUR193Z</strong> – Ruohotrimmeri</td>
+      <td><a href="https://himaunelmia.fi/paras-ruohotrimmeri-vertailu/" target="_blank">Hima Unelmia – paras ruohotrimmeri 2026 vertailu</a></td>
+      <td>🇫🇮 FI</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="sources">
+  Lähteet:
+  <a href="https://kauppa.alkuperaistuonti.fi/fin/makita-1828">Alkuperäistuonti</a> ·
+  <a href="https://www.k-rauta.fi/tuotemerkit/makita">K-Rauta Makita</a> ·
+  <a href="https://www.makita.fi/ruohonleikkurit.html">Makita.fi ruohonleikkurit</a> ·
+  <a href="https://www.makita.fi/dealer-locator.html">Makita jälleenmyyjähaku</a>
+</div>
+
+</body>
+</html>
